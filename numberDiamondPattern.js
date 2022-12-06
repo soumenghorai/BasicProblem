@@ -18,7 +18,7 @@ for (let i = 2; i <= n; i++) {
       string += " ";
     }
     // creating numbers
-    for (let k = 1; k <= 2 * (n - i + 1) - 1; k++) {
+    for (let k = 1; k <= 2 * (n - i+1) - 1; k++) {
       string += k;
     }
     string += "\n";
